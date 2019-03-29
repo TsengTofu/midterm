@@ -1,0 +1,52 @@
+* {
+    font-family: "微軟正黑體";
+}
+
+html, body, #root {
+    height: 100%;
+  }
+  
+  .puzzle h1 {
+    font-size: 48px;
+  }
+  .puzzle h1, .puzzle p {
+    margin: 10px;
+  }
+  .puzzle input {
+    margin-left: 10px;
+  }
+  
+  .board {
+    font-family: 'Lobster', cursive;
+    max-width: 300px;
+    margin: 10px;
+  }
+  .board .square {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    background:#000;
+    line-height: 60px;
+    text-align: center;
+    color:#fff;
+    border:1px solid #fff;
+  }
+  .board .square.zero {
+    background: #fff;
+    color:#000;
+  }
+
+  .start{
+      background:#000;
+      color:#fff;
+      width: 100px;
+      text-align: center;
+      cursor: pointer;
+      margin:2vw;
+  }
+
+  .start:hover{
+      background: #777;
+  }
+  
